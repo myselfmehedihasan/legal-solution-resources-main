@@ -19,6 +19,9 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
 
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a29dd921fb.js" crossorigin="anonymous"></script>
+
     <style>
         .font-eb {
             font-family: 'EB Garamond', serif;
@@ -26,6 +29,15 @@
 
         .font-poppins {
             font-family: 'Poppins', sans-serif;
+        }
+
+        p {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        h1,
+        h2 {
+            font-family: 'EB Garamond', serif;
         }
     </style>
 </head>
@@ -128,9 +140,8 @@
         </nav>
 
         <!-- Banner section -->
-        <section>
-            <div class="hero max-w-8xl mx-auto rounded-lg"
-                style="height:550px ;  background-image:
+        <section class="mt-6 lg:mt-16">
+            <div class="hero max-w-8xl mx-auto rounded-lg" style="height:550px ;  background-image:
                 linear-gradient(to right, #111, rgba(17, 17, 17, 0.00)),
                 url('./images/banner.png');">
                 <div class="bg-gradient-to-r from-[#111] to-[ #111111]"></div>
@@ -142,7 +153,8 @@
                             quasi. In deleniti eaque aut repudiandae et a id nisi.
                         </p>
                         <div class="flex justify-center flex-col lg:flex-row gap-6">
-                            <input type="text" placeholder="Search your services" class="input input-primary border-none lg:w-2/4">
+                            <input type="text" placeholder="Search your services"
+                                class="input input-primary border-none lg:w-2/4">
                             <button class="btn bg-[#B68C5A] text-white text-xl px-8 border-none">Search</button>
                         </div>
                     </div>
@@ -152,7 +164,65 @@
 
     </header>
     <main>
+        <!-- The Legal Practice Area -->
+        <section class="my-28 container mx-auto">
+            <h2 class="text-5xl font-extrabold text-center mb-6">The Legal Practice Area</h2>
+            <p class="text-center">There are many variations of passages of Lorem Ipsum available, but the majority have
+                suffered alteration in some form, by injected humour.</p>
+            <!-- Practice area grid -->
+             <div class="grid grid-cols-1 lg:grid-cols-3 mt-16 border-none justify-items-center content-center lg:mx-48">
+                <!-- first grid -->
+                <div class="flex flex-col justify-center items-center space-y-8 max-w-sm border border-gray-200 h p-8 hover:bg-[#E7E7E7]">
+                    <img src="./images/business.png" alt="">
+                    <h3 class="text-3xl font-extrabold text-center">Business Law</h3>
+                    <p class="text-base text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <img src="./images/Frame.png" alt="">
+                </div>
+                
+                <!-- Second grid -->
+                <div class="flex flex-col justify-center items-center space-y-8 max-w-sm border border-gray-200 p-8 hover:bg-[#E7E7E7]">
+                    <img src="./images/criminal.png" alt="">
+                    <h3 class="text-3xl font-extrabold text-center">Criminal Law</h3>
+                    <p class="text-base text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <img src="./images/Frame.png" alt="">
+                </div>
+                
+                <!-- 3rd grid -->
+                <div class="flex flex-col justify-center items-center space-y-8 max-w-sm border border-gray-200 p-8 hover:bg-[#E7E7E7]">
+                    <img src="./images/child.png" alt="">
+                    <h3 class="text-3xl font-extrabold text-center">Child Support</h3>
+                    <p class="text-base text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <img src="./images/Frame.png" alt="">
+                </div>
+                
+                <!-- 4th grid -->
+                <div class="flex flex-col justify-center items-center space-y-8 max-w-sm border border-gray-200 p-8 hover:bg-[#E7E7E7]">
+                    <img src="./images/education.png" alt="">
+                    <h3 class="text-3xl font-extrabold text-center">Education Law</h3>
+                    <p class="text-base text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <img src="./images/Frame.png" alt="">
+                </div>
+                
+                <!-- 5th grid -->
+                <div class="flex flex-col justify-center items-center space-y-8 max-w-sm border border-gray-200 p-8 hover:bg-[#E7E7E7]">
+                    <img src="./images/divorce.png" alt="">
+                    <h3 class="text-3xl font-extrabold text-center">Divorce Law</h3>
+                    <p class="text-base text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <img src="./images/Frame.png" alt="">
+                </div>
+                
+                <!-- 6th grid -->
+                <div class="flex flex-col justify-center items-center space-y-8 max-w-sm border border-gray-200 p-8 hover:bg-[#E7E7E7]">
+                    <img src="./images/tax.png" alt="">
+                    <h3 class="text-3xl font-extrabold text-center">Tax Law</h3>
+                    <p class="text-base text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <img src="./images/Frame.png" alt="">
+                </div>
+                
+                
+             </div>
 
+        </section>
     </main>
     <footer></footer>
 
