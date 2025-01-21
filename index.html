@@ -425,14 +425,14 @@
 
 
         <!-- Contact Us -->
-        <section class="container mx-auto">
+        <section class="container mx-auto mb-32 ">
             
             <div class="text-center">
                 <h2 class="text-4xl font-extrabold mb-6">Contact With Us</h2>
                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
                     alteration in some form, by injected humour.</p>
             </div>
-                <div class="flex flex-col-reverse lg:flex-row  mt-16 justify-center  max-w-6xl mx-auto gap-8">
+                <div class="flex flex-col-reverse lg:flex-row  mt-16 justify-center  max-w-6xl mx-auto gap-8 0">
                     <!-- contact grid -->
                     <div class="grid grid-cols-1 lg:grid-cols-2 flex-1   ">
                         <div class="py-5 lg:py-0 space-y-4 flex flex-col justify-center items-center     border border-[#CFCFCF]  bg-[#E7E7E7]">  <!--hover:bg-[#E7E7E7]-->
@@ -462,7 +462,7 @@
                     </div>
                     <div class="flex-1">
                         <!-- contact form -->
-                        <form action="#" class=" space-y-8 p-5 lg:p-0 flex-wrap">
+                        <form action="#" class=" space-y-8 p-5 lg:p-0 flex-wrap ">
                             <div class="bg-[#F3F3F3]  p-6 rounded-lg">
                                 
                                 <input type="text" id="name" class="bg-[#F3F3F3] w-full p-2 rounded"    placeholder="Your Name" required>
@@ -485,7 +485,41 @@
                 </div>
         </section>
     </main>
-    <footer></footer>
+    <footer class="footer sm:footer-horizontal bg-[#111111] text-white p-10">
+        <nav>
+          <h6 class="footer-title">Services</h6>
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </nav>
+        <nav>
+          <h6 class="footer-title">Company</h6>
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+        </nav>
+        <nav>
+          <h6 class="footer-title">Legal</h6>
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </nav>
+        <form>
+          <h6 class="footer-title">Newsletter</h6>
+          <fieldset class="w-80">
+            <label>Enter your email address</label>
+            <div class="join">
+              <input
+                type="text"
+                placeholder="username@site.com"
+                class="input input-bordered join-item" />
+              <button class="btn btn-primary join-item">Subscribe</button>
+            </div>
+          </fieldset>
+        </form>
+      </footer>
 
 </body>
 
